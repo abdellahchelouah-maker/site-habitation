@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activité 07 — Étude thermique</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Étude de mon <span>habitation</span></a>
+    <ul class="nav-links">
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="activite-00.html">00 · Recherche</a></li>
+        <li><a href="activite-01.html">01 · Croquis</a></li>
+        <li><a href="activite-02.html">02 · Relevés</a></li>
+        <li><a href="activite-02-dossier.html">02 · Dossier</a></li>
+        <li><a href="activite-03.html">03 · Plan</a></li>
+        <li><a href="activite-04.html">04 · DPE</a></li>
+        <li><a href="activite-05.html">05 · ECS</a></li>
+        <li><a href="activite-06.html">06 · Électrique</a></li>
+        <li><a href="activite-07.html" class="active">07 · Thermique</a></li>
+        <li><a href="activite-08.html">08 · Rendu final</a></li>
+        <li><a href="fiche-outils-word.html">🛠 Word</a></li>
+        <li><a href="fiche-outils-excel.html">🛠 Excel</a></li>
+    </ul>
+  </div>
+</nav>
+<header class="hero">
+  <div class="wrap hero-header">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="num">07</span> Séquence A · Activité 07</div>
+      <h1>Étude thermique</h1>
+      <p class="subtitle">Étudier le vitrage et l’isolation de votre habitation, puis dimensionner un poêle à granules.</p>
+    </div>
+    <div style="display:flex; align-items:center; gap:12px; margin-left:auto;">
+      <img src="images/logo-it.png" alt="Logo IT" style="height:180px; width:auto; display:block; object-fit:contain;">
+      <img class="hero-logo" src="images/logo_lycee.png" alt="Logo du lycée">
+    </div>
+  </div>
+</header><section class="block">
+  <div class="wrap">
+
+<figure>
+<img src="images/thermique.png" alt="déperdition thermique - image infrarouge" style="max-width:550px;">
+</figure>    
+    <h2>Le programme d’IT-I2D</h2>
+    
+    <div class="card">
+<span class="obj-tag">Objectif : Dimension socio-culturelle</span>
+<p><strong>O1</strong> - Caractériser des produits ou des constituants privilégiant un usage raisonné du point de vue développement durable.</p>
+<p><strong>CO1.1.</strong> Justifier les choix des structures matérielles et/ou logicielles d’un produit, identifier les flux mis en œuvre dans une approche de développement durable.</p>
+<h3>Connaissances associées</h3>
+<ul>
+<li>1.5. Approche environnementale</li>
+<li>1.5.3. Utilisation raisonnée des ressources : Propriétés physico-chimiques, mécaniques et thermiques des matériaux.</li>
+</ul>
+<span class="obj-tag">Objectif : Dimension scientifique et technique</span>
+<p><strong>O3</strong> - Analyser l’organisation fonctionnelle et structurelle d’un produit.</p>
+<p><strong>CO3.4.</strong> Identifier et caractériser des solutions techniques.</p>
+<h3>Connaissances associées</h3>
+<ul>
+<li>2.2. Approche fonctionnelle et structurelle des ossatures et des enveloppes</li>
+<li>2.2.1. Typologie des enveloppes.</li>
+<li>4.3.3. Efficacité énergétique passive et active d’un produit : Enveloppe du bâtiment, isolation.</li>
+</ul>
+<h3>Ressources</h3>
+<p>Utilisation des fiches-outil du dossier « Fiche outils Logiciels » : « Fiche outils Excel » et « Fiche Outils Sketchup - Dessiner un mur »</p>
+<p>Utilisation des fiches-outil du dossier « Fiche outils Habitation » : « Comment choisir son poêle à granules »</p>
+<div class="chips">
+<span class="chip"><a href="fiche-outils-excel.html">Fiche outils Excel</a></span>
+<span class="chip">Fiche Outils Sketchup — Dessiner un mur</span>
+<span class="chip">Comment choisir son poêle à granules</span>
+</div>
+</div>
+  </div>
+</section><section class="block">
+  <div class="wrap">
+    <h2>Vos informations</h2>
+    <p class="lede">Vous allez avoir besoin des informations de votre habitation suivantes :</p>
+    <div class="card">
+<ul>
+<li>Type de chauffage (électrique, gaz ou autre)</li>
+<li>Vitrages (simple, double ou autre)</li>
+<li>Structure et isolation des murs, plafonds et sols (avec les épaisseurs)</li>
+<li>Le tableau Excel des surfaces et volumes.</li>
+</ul>
+</div>
+  </div>
+</section><section class="block">
+  <div class="wrap">
+    <h2>Étude sur le vitrage</h2>
+    
+    <div class="card">
+<div class="callout">
+Pour comparer différents vitrages au niveau thermique, on utilise un paramètre que l’on nomme la <strong>conductivité thermique du vitrage U<sub>G</sub></strong> (G pour glass). Son unité est le <strong>W/(m².K)</strong>.<br><br>
+Cette conductivité mesure la quantité d’énergie perdue qui traverse le vitrage. Plus le chiffre est grand, plus on perd de l’énergie et donc moins le vitrage est performant au niveau thermique.<br><br>
+<em>Remarque : il n’y a pas que ce paramètre à prendre en compte dans le choix des fenêtres car le châssis joue lui aussi, mais nous le verrons plus tard…</em>
+</div>
+<figure>
+<img src="images/07/vitrage-coupe.jpg" alt="Coupe d’un profil de fenêtre double vitrage" style="max-width:280px;">
+</figure>
+<p><strong>Q1 :</strong> à l’aide d’Internet, trouvez 3 types de vitrages différents. Insérez les photos, noms et U<sub>G</sub> ci-dessous en les classant du moins isolant au plus isolant.</p>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Moins isolant → Plus isolant</th><th></th><th></th></tr></thead>
+<tbody>
+<tr><td>Nom : </td><td class="empty">—</td><td class="empty">—</td></tr>
+<tr><td>Photo : </td><td class="empty">—</td><td class="empty">—</td></tr>
+<tr><td>U<sub>G</sub> (W/(m².K)) : </td><td class="empty">—</td><td class="empty">—</td></tr>
+</tbody>
+
+</table>
+</div>
+<p><strong>Q2 :</strong> d’après vos recherches, concluez sur l’efficacité thermique de vos vitrages.</p>
+<div class="answer-box"></div>
+</div>
+  </div>
+</section><section class="block">
+  <div class="wrap">
+    <h2>Étude sur l’isolation</h2>
+    
+    <div class="card">
+<div class="callout">
+Pour connaître l’efficacité énergétique d’un matériau on calcule sa <strong>résistance thermique R</strong> dont l’unité est en <strong>m².K/W</strong>.<br><br>
+Le calcul de cette résistance est donné par la formule <strong>R = e/λ</strong><br>
+<strong>e</strong> est l’épaisseur du matériau en <strong>m</strong>.<br>
+<strong>λ</strong> est la conductivité thermique du matériau en <strong>W/(m.K)</strong><br><br>
+Plus on augmente l’épaisseur et plus la résistance est haute. Par contre plus on prend un matériau au λ bas et plus la résistance est haute.<br><br>
+Pour calculer la résistance thermique totale d’un mur composé de plusieurs matériaux, il suffit d’<strong>ajouter</strong> la résistance thermique des matériaux. Ainsi si nous avons un mur en brique avec de la laine de verre, la résistance du mur sera égale à : R<sub>mur</sub> = R<sub>brique</sub> + R<sub>isolant</sub><br><br>
+<em>Remarque : un mur est plus complexe que seulement une structure + une isolation. Il existe diverses couches qui seront vues plus tard…</em>
+</div>
+<figure>
+<img src="images/07/isolation-laine-verre.jpg" alt="Pose d’un isolant en laine de verre sur un mur en brique" style="max-width:320px;">
+</figure>
+<p><strong>Q3 :</strong> à l’aide du logiciel Sketchup (installé ou en ligne), dessinez 1 m² de votre mur (porteur + isolant). La fiche-outil « Fiche Outils Sketchup - Dessiner un mur » vous montre ce qu’on attend de vous. Dans le cadre ci-dessous, remplacez l’image exemple par votre mur.</p>
+<p>Calculez la résistance thermique de votre mur grâce aux formules. Recherchez les conductivités thermiques de vos matériaux par exemple sur un site spécialisé ou en tapant « conductivité thermique nomdumatériau » sous Google.</p>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Nom du matériau</th><th>Conductivité thermique W/(m.K)</th><th>Épaisseur m</th><th>Résistance thermique m².K/W</th></tr></thead>
+<tbody>
+<tr><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr>
+<tr><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr>
+</tbody>
+<tfoot><tr><td>Résistance totale du mur (m².K/W) :</td><td></td><td></td><td></td></tr></tfoot>
+</table>
+</div>
+<figure>
+<img src="images/07/exemple-mur-sketchup.jpg" alt="Exemple de mur dessiné sous Sketchup (mur en brique et isolant, coupe 3D)" style="max-width:340px;">
+<figcaption>Exemple fourni dans le sujet — à supprimer et remplacer par votre propre mur.</figcaption>
+</figure>
+</div>
+  </div>
+</section><section class="block">
+  <div class="wrap">
+    <h2>Q4 — Plafond et plancher bas</h2>
+    <p class="lede">Calculez la résistance thermique de votre plafond et de votre sol grâce aux formules. Recherchez les conductivités thermiques de vos matériaux par exemple sur un site spécialisé ou en tapant « conductivité thermique nomdumatériau » sous Google.</p>
+    <div class="card">
+<h3>Pour le plafond :</h3>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Nom du matériau du plafond</th><th>Conductivité thermique W/(m.K)</th><th>Épaisseur m</th><th>Résistance thermique m².K/W</th></tr></thead>
+<tbody>
+<tr><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr>
+<tr><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr>
+</tbody>
+<tfoot><tr><td>Résistance totale du plafond (m².K/W) :</td><td></td><td></td><td></td></tr></tfoot>
+</table>
+</div>
+<h3>Pour le sol (plancher bas) :</h3>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Nom du matériau du sol</th><th>Conductivité thermique W/(m.K)</th><th>Épaisseur m</th><th>Résistance thermique m².K/W</th></tr></thead>
+<tbody>
+<tr><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr>
+<tr><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td></tr>
+</tbody>
+<tfoot><tr><td>Résistance totale du sol (m².K/W) :</td><td></td><td></td><td></td></tr></tfoot>
+</table>
+</div>
+<p style="margin-top:24px;">D’après l’ADEME, les exigences de la RT2012 en rénovation sont les suivantes :</p>
+<figure>
+<img src="images/07/tableau-rt2012.png" alt="Tableau ADEME des zones climatiques et résistances thermiques minimales RT2012 (valables du 1er janvier 2018 au 31 décembre 2022)">
+</figure>
+<p><strong>Q5 :</strong> d’après vos résultats et le tableau ci-dessus, concluez quant à l’efficacité de vos murs, plafonds et plancher bas.</p>
+<div class="answer-box"></div>
+</div>
+  </div>
+</section><section class="block">
+  <div class="wrap">
+    <h2>Modification du chauffage</h2>
+<figure>
+<img src="images/poele-granule.png" alt="Poêle à granules">
+</figure>    
+    <div class="card">
+<p>Vous désirez modifier votre installation de chauffage pour vous chauffer avec un poêle à granules (voir documents techniques en annexe). Nous considérons dans notre étude que votre logement est isolé selon la norme RT 2012.</p>
+<ul class="qa">
+<li>Quelle puissance en kW doit avoir le poêle à granules pour chauffer le logement à 21°C ? On donne une puissance de 0,024 kW/m³<div class="answer-box"></div></li>
+<li>Quelle quantité annuelle de granules faudra-t-il commander ? L’habitation sera chauffée de novembre à mars soit 5 mois (réponse en kg). On a choisi un poêle de 10 kW au rendement de 93,9 % mais qui fonctionnera à la puissance calculée précédemment pour des raisons d’économie. Le pouvoir calorifique des granulés est de 4,9 kWh/kg et on prendra 30,4 jours en moyenne pour chaque mois entre novembre et mars.<div class="answer-box"></div></li>
+<li>Quel volume de granules faut-il réceptionner et stocker sachant que la densité en vrac est de 600 à 750 kg/m³ ? (réponse en m³)<div class="answer-box"></div></li>
+<li>Quelle surface faudra-t-il dédier à ce stockage ? Comment diminuer cette surface de stockage ?<div class="answer-box"></div></li>
+</ul>
+</div>
+  </div>
+</section><section class="block">
+  <div class="wrap">
+    <h2>Livraison à domicile des sacs de pellets</h2>
+<figure>
+<img src="images/palettes.png" alt="Palette de granulés">
+</figure>    
+
+    <div class="card">
+<p>La palette de 66 sacs de 15 kg est plus près de votre lieu de stockage (comme votre garage ou votre abri de jardin) grâce à un transpalette électrique tout terrain.</p>
+<p>Dimensions de la palette de granulés : 80 x 120 x 180 cm ou 100 x 100 x 180 cm selon la région.</p>
+</div>
+  </div>
+</section>
+<section class="resource-banner">
+  <div class="inner">
+    <h3>Ressources documentaires</h3>
+    <div class="resource-links">
+      <a href="../ressources/Choisir%20un%20poele%20a%20granules.pdf" target="_blank" rel="noopener">Choisir un poêle à granulés</a>
+    </div>
+  </div>
+</section>
+<div class="page-nav wrap"><a class="prev" href="activite-06.html"><span class="dir">Précédent</span><span class="ttl">Activité 06 · Étude électrique</span></a><span></span></div>
+<footer class="site-footer">
+  <div class="wrap">Séquence A — IT&nbsp;+&nbsp;I2D · Étude technologique de l'habitation</div>
+</footer>
+</footer>
+<p class="site-credit">Ce site a été réalisé par Abdellah CHELOUAH.</p>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activité 08 — Rendu final</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .page-hero {
+    margin: 0 0 24px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 14px;
+  }
+
+  .tag.green {
+    background: rgba(34, 139, 34, 0.12);
+    color: #1f6b37;
+    border: 1px solid rgba(34, 139, 34, 0.25);
+  }
+
+  .section {
+    margin: 0 0 26px;
+  }
+
+  .box {
+    background: var(--bg-alt);
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: var(--radius-m);
+    padding: 18px 20px;
+    color: var(--ink-soft);
+  }
+
+  .box.accent {
+    border-left: 4px solid var(--accent);
+    background: rgba(0, 104, 214, 0.04);
+  }
+
+  .box.green {
+    border-left: 4px solid #1f6b37;
+    background: rgba(34, 139, 34, 0.05);
+    display: grid;
+    gap: 16px;
+  }
+
+  .improvement {
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 12px;
+  }
+
+  .improvement h4 {
+    margin: 0 0 8px;
+    color: var(--ink);
+    font-size: 17px;
+  }
+
+  .improvement p {
+    margin: 0;
+    color: var(--ink-soft);
+  }
+
+  .section ul {
+    margin-top: 10px;
+    padding-left: 22px;
+    color: var(--ink-soft);
+  }
+
+  .section li {
+    margin-bottom: 6px;
+  }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Étude de mon <span>habitation</span></a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="activite-00.html">00 · Recherche</a></li>
+      <li><a href="activite-01.html">01 · Croquis</a></li>
+      <li><a href="activite-02.html">02 · Relevés</a></li>
+      <li><a href="activite-02-dossier.html">02 · Dossier</a></li>
+      <li><a href="activite-03.html">03 · Plan</a></li>
+      <li><a href="activite-04.html">04 · DPE</a></li>
+      <li><a href="activite-05.html">05 · ECS</a></li>
+      <li><a href="activite-06.html">06 · Électrique</a></li>
+      <li><a href="activite-07.html">07 · Thermique</a></li>
+      <li><a href="activite-08.html" class="active">08 · Rendu final</a></li>
+      <li><a href="fiche-outils-word.html">🛠 Word</a></li>
+      <li><a href="fiche-outils-excel.html">🛠 Excel</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-header">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="num">08</span> Séquence A · Activité 08</div>
+      <h1>Rendu final — Étude complète</h1>
+      <p class="subtitle">Cette activité conclut la séquence : le document final doit synthétiser l’intégralité des études menées sur l’habitation et proposer des préconisations d’amélioration argumentées.</p>
+    </div>
+    <div style="display:flex; align-items:center; gap:12px; margin-left:auto;">
+      <img src="images/logo-it.png" alt="Logo IT" style="height:180px; width:auto; display:block; object-fit:contain;">
+      <img class="hero-logo" src="images/logo_lycee.png" alt="Logo du lycée">
+    </div>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap">
+    <div class="page-hero">
+      <span class="tag green">Activité 07 · Rendu final</span>
+      <h1>Rendu final — Étude complète</h1>
+      <p>Cette activité conclut la séquence : chaque élève doit produire un document de synthèse unique, structuré et illustré, reprenant l’intégralité des études menées sur son habitation (activités 00 à 06), et formuler des préconisations d’amélioration argumentées.</p>
+    </div>
+
+    <div class="section">
+      <h2>Objectif pédagogique</h2>
+      <p>Dimension socio-culturelle et technique — Synthétiser l’ensemble de l’étude technologique de l’habitat, justifier des solutions constructives et proposer des évolutions vers un habitat plus durable, voire à énergie positive.</p>
+    </div>
+
+    <div class="section">
+      <h2>Structure attendue du document Word</h2>
+      <div class="box accent">
+        <p><strong>1. Page de garde</strong> — titre du dossier, nom, prénom, classe, groupe, date.</p>
+        <p><strong>2. Table des matières automatique</strong> — générée à partir des styles de titres Word, mise à jour avant remise.</p>
+        <p><strong>3. Un chapitre par activité</strong>, chacun démarrant sur une nouvelle page :</p>
+        <ul>
+          <li>Chapitre 00 — Recherche d’informations</li>
+          <li>Chapitre 01 — Croquis de votre habitation</li>
+          <li>Chapitre 02 — Relevés d’habitation</li>
+          <li>Chapitre 03 — Plan de votre habitation</li>
+          <li>Chapitre 04 — Étude du DPE</li>
+          <li>Chapitre 05 — Étude de production d’ECS</li>
+          <li>Chapitre 06 — Étude électrique</li>
+          <li>Chapitre de synthèse : points forts / points faibles de l’habitat</li>
+          <li>Chapitre « Préconisations d’amélioration »</li>
+        </ul>
+        <p><strong>4. En-tête et pied de page</strong> — titre du dossier en en-tête, numéro de page et nom en pied de page.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Travail à réaliser</h2>
+      <div class="box">
+        <ul>
+          <li>Créer un document Word unique nommé « Etude habitat NOM Prénom ».</li>
+          <li>Insérer une page de garde (titre, nom, prénom, classe, groupe, date).</li>
+          <li>Générer une table des matières automatique (styles de titres Word) reprenant les 7 chapitres de l’étude.</li>
+          <li>Rédiger un chapitre par activité (00 à 06) : présentation, données relevées, photos/croquis légendés, réponses argumentées.</li>
+          <li>Insérer le tableau Excel des surfaces et volumes (issu de l’activité 02).</li>
+          <li>Ajouter un chapitre de synthèse global reprenant les points forts et points faibles de l’habitat (thermique, électrique, ECS).</li>
+          <li>Formuler au moins trois préconisations d’amélioration distinctes visant à réduire l’impact environnemental de l’habitat ou à tendre vers un logement à énergie positive (BEPOS).</li>
+          <li>Pour chaque préconisation : décrire la solution technique, justifier son intérêt énergétique/environnemental, estimer (même approximativement) son impact ou gain attendu.</li>
+          <li>Mettre en forme le document (en-têtes, pieds de page, numérotation, sauts de page entre chapitres).</li>
+          <li>Exporter le document final au format PDF en plus du .docx.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Exigence clé : trois préconisations minimum</h2>
+      <p>Le chapitre de synthèse doit obligatoirement proposer <strong>au moins trois améliorations concrètes</strong> de l’habitat étudié, visant à réduire son impact environnemental ou à s’orienter vers un logement à énergie positive (BEPOS). Pour chaque préconisation, le document doit décrire la solution, justifier son intérêt énergétique et estimer son impact attendu.</p>
+      <div class="box green">
+        <div class="improvement">
+          <h4>Isolation thermique renforcée</h4>
+          <p>Renforcer l’isolation des murs, toitures ou combles (ITE/ITI, épaisseur d’isolant conforme RE2020) pour réduire les déperditions de chaleur et améliorer la classe DPE.</p>
+        </div>
+        <div class="improvement">
+          <h4>Production d’énergie renouvelable</h4>
+          <p>Installer des panneaux photovoltaïques (autoconsommation ou revente) afin de couvrir une partie ou la totalité des besoins électriques du logement, voire viser un bilan énergétique positif.</p>
+        </div>
+        <div class="improvement">
+          <h4>Optimisation de la production ECS</h4>
+          <p>Remplacer un chauffe-eau électrique classique par un chauffe-eau thermodynamique ou solaire thermique, réduisant significativement la consommation liée à l’eau chaude sanitaire.</p>
+        </div>
+        <div class="improvement">
+          <h4>Ventilation performante (VMC double flux)</h4>
+          <p>Installer une VMC double flux avec récupération de chaleur pour limiter les pertes énergétiques liées au renouvellement d’air tout en assurant une bonne qualité de l’air intérieur.</p>
+        </div>
+        <div class="improvement">
+          <h4>Pilotage intelligent de la consommation</h4>
+          <p>Mettre en place un système de gestion/domotique (programmation du chauffage, suivi de consommation en temps réel) pour ajuster les usages et réduire le gaspillage énergétique.</p>
+        </div>
+      </div>
+      <p style="margin-top:14px;"><em>Ces cinq exemples sont indicatifs : le document final choisit au minimum trois pistes pertinentes et adaptées au logement étudié, en s’appuyant sur les données recueillies dans les activités 00 à 06.</em></p>
+    </div>
+
+    <div class="section">
+      <h2>Rendu attendu</h2>
+      <p>Un document Word (+ export PDF) unique, structuré avec table des matières automatique, reprenant l’ensemble des activités 00 à 06 et intégrant un chapitre de préconisations comportant au minimum trois améliorations concrètes pour réduire l’impact environnemental de l’habitat ou évoluer vers un habitat à énergie positive.</p>
+    </div>
+  </div>
+</section>
+
+<div class="page-nav wrap">
+  <a class="prev" href="activite-07.html"><span class="dir">Précédent</span><span class="ttl">Activité 07 · Étude thermique</span></a>
+  <a class="next" href="../index.html"><span class="dir">Accueil</span><span class="ttl">Retour au site</span></a>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">Séquence A — IT&nbsp;+&nbsp;I2D · Étude technologique de l'habitation</div>
+</footer>
+<p class="site-credit">Ce site a été réalisé par Abdellah CHELOUAH.</p>
+</body>
+</html>
